@@ -8,14 +8,14 @@ public class VertexConnection {
 
     private  Vertex fromVertex;
 
-    public static VertexConnection connectDirectional(Vertex fromVertex, Vertex toVertex, int weight) {
+    public static VertexConnection connectDirectionally(Vertex fromVertex, Vertex toVertex, int weight) {
         VertexConnection connection = new VertexConnection(weight, fromVertex, toVertex);
         fromVertex.getConnections().add(connection);
 
         return connection;
     }
 
-    public static VertexConnection connectIndirectional(Vertex fromVertex, Vertex toVertex, int weight) {
+    public static VertexConnection connectIndirectionally(Vertex fromVertex, Vertex toVertex, int weight) {
         VertexConnection connection = new VertexConnection(weight, fromVertex, toVertex);
         fromVertex.getConnections().add(connection);
         toVertex.getConnections().add(connection);

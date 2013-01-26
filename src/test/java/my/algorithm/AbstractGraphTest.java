@@ -1,8 +1,5 @@
 package my.algorithm;
 
-import my.algorithm.VertexConnection;
-import my.algorithm.Vertex;
-
 import java.util.Arrays;
 import java.util.List;
 
@@ -17,17 +14,17 @@ public abstract class AbstractGraphTest {
                 new Vertex(4)
         );
 
-        VertexConnection.connectDirectional(vertexes.get(0), vertexes.get(1), 2);
-        VertexConnection.connectDirectional(vertexes.get(0), vertexes.get(4), 4);
+        VertexConnection.connectDirectionally(vertexes.get(0), vertexes.get(1), 2);
+        VertexConnection.connectDirectionally(vertexes.get(0), vertexes.get(4), 4);
 
-        VertexConnection.connectDirectional(vertexes.get(1), vertexes.get(2), 3);
+        VertexConnection.connectDirectionally(vertexes.get(1), vertexes.get(2), 3);
 
-        VertexConnection.connectDirectional(vertexes.get(2), vertexes.get(4), 1);
-        VertexConnection.connectDirectional(vertexes.get(2), vertexes.get(3), 5);
+        VertexConnection.connectDirectionally(vertexes.get(2), vertexes.get(4), 1);
+        VertexConnection.connectDirectionally(vertexes.get(2), vertexes.get(3), 5);
 
-        VertexConnection.connectDirectional(vertexes.get(3), vertexes.get(1), 8);
+        VertexConnection.connectDirectionally(vertexes.get(3), vertexes.get(1), 8);
 
-        VertexConnection.connectDirectional(vertexes.get(4), vertexes.get(3), 7);
+        VertexConnection.connectDirectionally(vertexes.get(4), vertexes.get(3), 7);
 
         vertexes.get(0).setDistance(0);
 

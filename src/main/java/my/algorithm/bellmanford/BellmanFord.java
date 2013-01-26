@@ -15,8 +15,8 @@ public class BellmanFord {
                     Vertex toVertex = vConnect.getToVertex();
                     // 気をつけろ、オーバーフローするぞ!
                     long newDist = (long) fromVertex.getDistance() + (long) vConnect.getWeight();
-                    boolean updateRequired = newDist < (long) toVertex.getDistance();
-                    if ( updateRequired ) {
+                    boolean shorterPathFound = newDist < (long) toVertex.getDistance();
+                    if ( shorterPathFound ) {
                         toVertex.setDistance((int) newDist);
                         toVertex.setPrev(fromVertex.getNumber());
                     }

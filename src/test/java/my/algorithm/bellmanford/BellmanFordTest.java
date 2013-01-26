@@ -1,6 +1,5 @@
 package my.algorithm.bellmanford;
 
-import my.algorithm.AbstractGraphTest;
 import my.algorithm.Vertex;
 import my.algorithm.VertexConnection;
 import org.junit.Test;
@@ -31,16 +30,16 @@ public class BellmanFordTest {
                 new Vertex(3),
                 new Vertex(4));
 
-        VertexConnection.connectDirectional(vertexes.get(0), vertexes.get(4), 2);
+        VertexConnection.connectDirectionally(vertexes.get(0), vertexes.get(4), 2);
 
-        VertexConnection.connectDirectional(vertexes.get(1), vertexes.get(3), -2);
+        VertexConnection.connectDirectionally(vertexes.get(1), vertexes.get(3), -2);
 
-        VertexConnection.connectDirectional(vertexes.get(2), vertexes.get(1), -3);
+        VertexConnection.connectDirectionally(vertexes.get(2), vertexes.get(1), -3);
 
-        VertexConnection.connectDirectional(vertexes.get(3), vertexes.get(2), 6);
+        VertexConnection.connectDirectionally(vertexes.get(3), vertexes.get(2), 6);
 
-        VertexConnection.connectDirectional(vertexes.get(4), vertexes.get(3), 4);
-        VertexConnection.connectDirectional(vertexes.get(4), vertexes.get(1), 5);
+        VertexConnection.connectDirectionally(vertexes.get(4), vertexes.get(3), 4);
+        VertexConnection.connectDirectionally(vertexes.get(4), vertexes.get(1), 5);
 
         vertexes.get(0).setDistance(0);
 

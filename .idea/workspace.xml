@@ -6,12 +6,12 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359193866345" ignored="false" />
     <file path="/Dijkstra.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359190428869" ignored="false" />
-    <file path="/PriorityQueueDijkstra.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359203171159" ignored="false" />
-    <file path="/DenseGraphDijkstra.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359203238581" ignored="false" />
+    <file path="/PriorityQueueDijkstra.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359241356373" ignored="false" />
+    <file path="/DenseGraphDijkstra.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359241377395" ignored="false" />
     <file path="/Vertex.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359195159446" ignored="false" />
     <file path="/DenseGraphDijkstraTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359191162540" ignored="false" />
-    <file path="/BellmanFord.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359195327606" ignored="false" />
-    <file path="/VertexConnection.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359193707564" ignored="false" />
+    <file path="/BellmanFord.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359241392815" ignored="false" />
+    <file path="/VertexConnection.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359241431729" ignored="false" />
     <file path="/DirectionVertexConnection.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359192990717" ignored="false" />
     <file path="/AbstractDijkstraTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359193769423" ignored="false" />
     <file path="/BellmanFordTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359194955538" ignored="false" />
@@ -87,25 +87,25 @@
       <file leaf-file-name="AbstractGraphTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/AbstractGraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="30" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+            <state line="12" column="30" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PriorityQueueDijkstra.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PriorityQueueDijkstra.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/PriorityQueueDijkstra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="36" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+            <state line="22" column="40" selection-start="773" selection-end="773" vertical-scroll-proportion="0.53672314">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DenseGraphDijkstra.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DenseGraphDijkstra.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/DenseGraphDijkstra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="59" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.48305085">
+            <state line="36" column="40" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,7 +114,7 @@
       <file leaf-file-name="BellmanFord.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/bellmanford/BellmanFord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="39" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+            <state line="17" column="44" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -123,7 +123,7 @@
       <file leaf-file-name="BellmanFordTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/bellmanford/BellmanFordTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="5" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
+            <state line="37" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,7 +161,7 @@
       <file leaf-file-name="VertexConnection.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/VertexConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="5" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+            <state line="10" column="55" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,17 +182,17 @@
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/PriorityQueueDijkstraTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/DenseGraphDijkstraTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/algorithm/DirectionalConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/VertexConnection.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/AbstractDijkstraTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/AbstractGraphTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/AbstractGraphTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/bellmanford/BellmanFord.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/algorithm/Vertex.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/bellmanford/BellmanFordTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/PriorityQueueGraphTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/DenseGraphGraphTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/PriorityQueueDijkstra.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/DenseGraphDijkstra.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/bellmanford/BellmanFord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/VertexConnection.java" />
       </list>
     </option>
   </component>
@@ -885,23 +885,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/VertexConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/Dijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/bellmanford/BellmanFord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -915,23 +901,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/AbstractGraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/bellmanford/BellmanFordTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/PriorityQueueDijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+        <state line="12" column="30" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -952,7 +922,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/DenseGraphDijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="59" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.48305085">
+        <state line="36" column="40" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/bellmanford/BellmanFord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="44" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/VertexConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="55" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/bellmanford/BellmanFordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/PriorityQueueDijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="40" selection-start="773" selection-end="773" vertical-scroll-proportion="0.53672314">
           <folding />
         </state>
       </provider>
