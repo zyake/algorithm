@@ -33,10 +33,11 @@ public class DenseGraphDijkstra implements Dijkstra {
 
             for ( VertexConnection vConnect : target.getConnections() ) {
                 int newDist = target.getDistance() + vConnect.getWeight();
-                boolean updateRequired = newDist < vConnect.getToVertex().getDistance();
+                Vertex toVertex = vConnect.getToVertex();
+                boolean updateRequired = newDist < toVertex.getDistance();
                 if ( updateRequired ) {
-                    vConnect.getToVertex().setDistance(newDist);
-                    vConnect.getToVertex().setPrev(target.getNumber());
+                    toVertex.setDistance(newDist);
+                    toVertex.setPrev(target.getNumber());
                 }
             }
         }
