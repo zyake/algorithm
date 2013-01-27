@@ -1,9 +1,11 @@
 package my.algorithm;
 
-import java.lang.Comparable;import java.lang.Integer;import java.lang.Object;import java.lang.Override;import java.util.ArrayList;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
-public class Vertex implements Comparable {
+public class Vertex {
 
     private int number;
 
@@ -17,12 +19,6 @@ public class Vertex implements Comparable {
 
     public Vertex(int number) {
         this.number = number;
-    }
-
-    @Override
-    public int compareTo(Object o) {
-        Vertex opponent = (Vertex) o;
-        return this.distance - opponent.distance;
     }
 
     @Override

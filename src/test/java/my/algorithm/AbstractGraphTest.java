@@ -5,29 +5,19 @@ import java.util.List;
 
 public abstract class AbstractGraphTest {
 
-    protected  List<Vertex> createTestVertexes() {
-        List<Vertex> vertexes = Arrays.asList(
-                new Vertex(0),
-                new Vertex(1),
-                new Vertex(2),
-                new Vertex(3),
-                new Vertex(4)
-        );
+    protected  List<Vertex> createTestvertices() {
+        List<Vertex> vertices = new GraphBuilder(0, 4)
+                .connectDirectionally(0, 1, 2)
+                .connectDirectionally(0, 4, 4)
+                .connectDirectionally(1, 2, 3)
+                .connectDirectionally(2, 4, 1)
+                .connectDirectionally(2, 3, 5)
+                .connectDirectionally(3, 1, 8)
+                .connectDirectionally(4, 3, 7)
+                .getVertices();
 
-        VertexConnection.connectDirectionally(vertexes.get(0), vertexes.get(1), 2);
-        VertexConnection.connectDirectionally(vertexes.get(0), vertexes.get(4), 4);
+        vertices.get(0).setDistance(0);
 
-        VertexConnection.connectDirectionally(vertexes.get(1), vertexes.get(2), 3);
-
-        VertexConnection.connectDirectionally(vertexes.get(2), vertexes.get(4), 1);
-        VertexConnection.connectDirectionally(vertexes.get(2), vertexes.get(3), 5);
-
-        VertexConnection.connectDirectionally(vertexes.get(3), vertexes.get(1), 8);
-
-        VertexConnection.connectDirectionally(vertexes.get(4), vertexes.get(3), 7);
-
-        vertexes.get(0).setDistance(0);
-
-        return vertexes;
+        return vertices;
     }
 }

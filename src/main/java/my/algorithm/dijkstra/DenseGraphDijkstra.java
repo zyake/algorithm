@@ -8,11 +8,11 @@ import java.util.List;
 public class DenseGraphDijkstra implements Dijkstra {
 
     @Override
-    public void calculate(List<Vertex> vertexes) {
+    public void calculate(List<Vertex> vertices) {
         while ( true ) {
             Vertex target = null;
             int dist = Integer.MAX_VALUE;
-            for ( Vertex v : vertexes ) {
+            for ( Vertex v : vertices ) {
                 if ( v.isVisited() ) {
                     continue;
                 }

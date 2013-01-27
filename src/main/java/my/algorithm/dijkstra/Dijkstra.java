@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface Dijkstra {
 
-    void calculate(List<Vertex> vertexes);
+    void calculate(List<Vertex> vertices);
 }

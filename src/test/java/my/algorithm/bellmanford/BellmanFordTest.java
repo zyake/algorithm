@@ -1,7 +1,7 @@
 package my.algorithm.bellmanford;
 
+import my.algorithm.GraphBuilder;
 import my.algorithm.Vertex;
-import my.algorithm.VertexConnection;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -23,26 +23,17 @@ public class BellmanFordTest {
     }
 
     List<Vertex> createVetexes() {
-        List<Vertex> vertexes = Arrays.asList(
-                new Vertex(0),
-                new Vertex(1),
-                new Vertex(2),
-                new Vertex(3),
-                new Vertex(4));
+        List<Vertex> vertices = new GraphBuilder(0, 4)
+                .connectDirectionally(0, 4, 2)
+                .connectDirectionally(1, 3, -2)
+                .connectDirectionally(2, 1, -3)
+                .connectDirectionally(3, 2, 6)
+                .connectDirectionally(4, 3, 4)
+                .connectDirectionally(4, 1, 5)
+                .getVertices();
 
-        VertexConnection.connectDirectionally(vertexes.get(0), vertexes.get(4), 2);
+        vertices.get(0).setDistance(0);
 
-        VertexConnection.connectDirectionally(vertexes.get(1), vertexes.get(3), -2);
-
-        VertexConnection.connectDirectionally(vertexes.get(2), vertexes.get(1), -3);
-
-        VertexConnection.connectDirectionally(vertexes.get(3), vertexes.get(2), 6);
-
-        VertexConnection.connectDirectionally(vertexes.get(4), vertexes.get(3), 4);
-        VertexConnection.connectDirectionally(vertexes.get(4), vertexes.get(1), 5);
-
-        vertexes.get(0).setDistance(0);
-
-        return vertexes;
+        return vertices;
     }
 }
