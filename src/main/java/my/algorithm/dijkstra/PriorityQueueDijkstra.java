@@ -34,7 +34,7 @@ public class PriorityQueueDijkstra implements Dijkstra {
                     toVertex.setDistance(newDist);
                     toVertex.setPrev(vertex.getNumber());
                 }
-             }
+            }
         }
     }
 

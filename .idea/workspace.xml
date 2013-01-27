@@ -156,7 +156,7 @@
       <file leaf-file-name="PriorityQueueDijkstra.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/PriorityQueueDijkstra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="14" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.7620321">
+            <state line="36" column="13" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.7620321">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#252#419#0" expanded="true" />
@@ -1100,7 +1100,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/PriorityQueueDijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="14" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.7620321">
+        <state line="36" column="13" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.7620321">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#252#419#0" expanded="true" />
