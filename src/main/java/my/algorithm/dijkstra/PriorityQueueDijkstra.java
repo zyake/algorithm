@@ -29,12 +29,12 @@ public class PriorityQueueDijkstra implements Dijkstra {
                 int newDist = vConnect.getWeight() + vertex.getDistance();
                 Vertex toVertex = vConnect.getToVertex();
 
-            boolean shorterPathFound = newDist < toVertex.getDistance();
-            if ( shorterPathFound ) {
-                toVertex.setDistance(newDist);
-                toVertex.setPrev(vertex.getNumber());
-            }
-        }
+                boolean shorterPathFound = newDist < toVertex.getDistance();
+                if ( shorterPathFound ) {
+                    toVertex.setDistance(newDist);
+                    toVertex.setPrev(vertex.getNumber());
+                }
+             }
         }
     }
 
