@@ -13,6 +13,7 @@ public class BellmanFord {
                 for (VertexConnection vConnect : vertexes.get(j).getConnections() ) {
                     Vertex fromVertex = vConnect.getFromVertex();
                     Vertex toVertex = vConnect.getToVertex();
+
                     // 気をつけろ、オーバーフローするぞ!
                     long newDist = (long) fromVertex.getDistance() + (long) vConnect.getWeight();
                     boolean shorterPathFound = newDist < (long) toVertex.getDistance();

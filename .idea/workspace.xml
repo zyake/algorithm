@@ -4,7 +4,7 @@
     <list default="true" id="b43a6fab-831d-4679-a8ce-8232dfed872f" name="Default" comment="" />
     <ignored path="algorithm.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359193866345" ignored="false" />
+    <file path="/fragment.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359243761440" ignored="false" />
     <file path="/Dijkstra.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359190428869" ignored="false" />
     <file path="/PriorityQueueDijkstra.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359241356373" ignored="false" />
     <file path="/DenseGraphDijkstra.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359241377395" ignored="false" />
@@ -17,6 +17,10 @@
     <file path="/BellmanFordTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359194955538" ignored="false" />
     <file path="/DenseGraphGraphTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359194972737" ignored="false" />
     <file path="/PriorityQueueGraphTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359194997743" ignored="false" />
+    <file path="/FloydWarshall.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359244678315" ignored="false" />
+    <file path="/FloydWarshallResult.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359242899821" ignored="false" />
+    <file path="/FloydWarshallTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359245515512" ignored="false" />
+    <file path="/a.dummy" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359243868191" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,37 +79,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Dijkstra.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/Dijkstra.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractGraphTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/AbstractGraphTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="30" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PriorityQueueDijkstra.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/PriorityQueueDijkstra.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="40" selection-start="773" selection-end="773" vertical-scroll-proportion="0.53672314">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DenseGraphDijkstra.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/DenseGraphDijkstra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="40" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0">
+            <state line="36" column="0" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,7 +91,7 @@
       <file leaf-file-name="BellmanFord.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/bellmanford/BellmanFord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="44" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -123,10 +100,59 @@
       <file leaf-file-name="BellmanFordTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/bellmanford/BellmanFordTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
+            <state line="15" column="34" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FloydWarshall.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/floydwarshall/FloydWarshall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="0" selection-start="1247" selection-end="1247" vertical-scroll-proportion="1.6638418">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FloydWarshallTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/floydwarshall/FloydWarshallTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="18" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vertex.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/Vertex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FloydWarshallResult.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/floydwarshall/FloydWarshallResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="19" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PriorityQueueDijkstra.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/PriorityQueueDijkstra.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="12" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,28 +166,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vertex.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/Vertex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PriorityQueueGraphTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/PriorityQueueGraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="51" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VertexConnection.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/VertexConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="55" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,9 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/Dijkstra.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/DirectionVertexConnection.java" />
-        <option value="$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/PriorityQueueDijkstraTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/DenseGraphDijkstraTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/algorithm/DirectionalConnection.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/AbstractDijkstraTest.java" />
@@ -189,10 +194,13 @@
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/bellmanford/BellmanFordTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/PriorityQueueGraphTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/DenseGraphGraphTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/VertexConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/PriorityQueueDijkstra.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/DenseGraphDijkstra.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/algorithm/bellmanford/BellmanFord.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/VertexConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/floydwarshall/FloydWarshallResult.java" />
+        <option value="$PROJECT_DIR$/src/test/java/my/algorithm/floydwarshall/FloydWarshallTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/floydwarshall/FloydWarshall.java" />
       </list>
     </option>
   </component>
@@ -316,6 +324,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="floydwarshall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dijkstra" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -420,6 +458,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="floydwarshall" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dijkstra" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -476,16 +544,16 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="my.algorithm.floydwarshall" />
       <recent name="my.algorithm.bellmanford" />
       <recent name="my.app.dijkstra" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\zyake\Documents\GitHub\algorithm\src\test\java" />
-      <recent name="C:\Users\zyake\Documents\GitHub\algorithm\src\test" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="my.algorithm.floydwarshall" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="my.algorithm" />
@@ -493,57 +561,17 @@
       <recent name="my.app.dijkstra" />
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zyake\Documents\GitHub\algorithm\src\test\java" />
+      <recent name="C:\Users\zyake\Documents\GitHub\algorithm\src\test" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in algorithm">
+  <component name="RunManager" selected="JUnit.my.algorithm in algorithm">
     <configuration default="false" name="All in algorithm" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="algorithm" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DenseGraphGraphTest.testCalculate" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="algorithm" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="my.algorithm.dijkstra" />
-      <option name="MAIN_CLASS_NAME" value="my.algorithm.dijkstra.DenseGraphGraphTest" />
-      <option name="METHOD_NAME" value="testCalculate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="my.algorithm.dijkstra in algorithm" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="algorithm" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="my.algorithm.dijkstra" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
@@ -588,6 +616,50 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="my.algorithm" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FloydWarshallTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="algorithm" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="my.algorithm.floydwarshall" />
+      <option name="MAIN_CLASS_NAME" value="my.algorithm.floydwarshall.FloydWarshallTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="my.algorithm.floydwarshall in algorithm" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="algorithm" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="my.algorithm.floydwarshall" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
@@ -716,18 +788,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in algorithm" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DenseGraphGraphTest.testCalculate" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.my.algorithm.dijkstra in algorithm" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.my.algorithm.bellmanford in algorithm" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.my.algorithm in algorithm" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.my.algorithm.bellmanford in algorithm" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.my.algorithm in algorithm" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FloydWarshallTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.my.algorithm.floydwarshall in algorithm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in algorithm" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.my.algorithm in algorithm" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.my.algorithm.bellmanford in algorithm" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.my.algorithm.dijkstra in algorithm" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DenseGraphGraphTest.testCalculate" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.my.algorithm in algorithm" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.my.algorithm.floydwarshall in algorithm" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FloydWarshallTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in algorithm" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.my.algorithm.bellmanford in algorithm" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -764,6 +836,7 @@
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -774,11 +847,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19288956" sideWeight="0.67147434" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2549168" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2549168" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -843,27 +915,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/Dijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/PriorityQueueDijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="59" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="64" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
@@ -892,44 +943,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/PriorityQueueGraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="51" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/AbstractGraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="30" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/DenseGraphGraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="83" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/Vertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/DenseGraphDijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="40" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/bellmanford/BellmanFord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -941,9 +957,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/DenseGraphDijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/bellmanford/BellmanFord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/DenseGraphGraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="83" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/dijkstra/PriorityQueueGraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="51" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/bellmanford/BellmanFordTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
+        <state line="15" column="34" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -952,8 +996,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/PriorityQueueDijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="40" selection-start="773" selection-end="773" vertical-scroll-proportion="0.53672314">
+        <state line="19" column="12" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/floydwarshall/FloydWarshallResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="19" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/floydwarshall/FloydWarshallTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="18" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/floydwarshall/FloydWarshall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1247" selection-end="1247" vertical-scroll-proportion="1.6638418">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

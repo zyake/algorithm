@@ -10,7 +10,7 @@ public class PriorityQueueDijkstra implements Dijkstra {
 
     @Override
     public void calculate(List<Vertex> vertexes) {
-        Queue<Vertex> queue = new PriorityQueue<Vertex>();
+        Queue<Vertex> queue = new PriorityQueue<>();
         for ( Vertex vertex : vertexes ) {
             queue.add(vertex);
         }
@@ -20,12 +20,13 @@ public class PriorityQueueDijkstra implements Dijkstra {
             for ( VertexConnection vConnect :  vertex.getConnections() ) {
                 int newDist = vConnect.getWeight() + vertex.getDistance();
                 Vertex toVertex = vConnect.getToVertex();
-                boolean shorterPathFound = newDist < toVertex.getDistance();
-                if ( shorterPathFound ) {
-                    toVertex.setDistance(newDist);
-                    toVertex.setPrev(vertex.getNumber());
-                }
+
+            boolean shorterPathFound = newDist < toVertex.getDistance();
+            if ( shorterPathFound ) {
+                toVertex.setDistance(newDist);
+                toVertex.setPrev(vertex.getNumber());
             }
+        }
         }
     }
 

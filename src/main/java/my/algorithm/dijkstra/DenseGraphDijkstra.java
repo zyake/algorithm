@@ -34,6 +34,7 @@ public class DenseGraphDijkstra implements Dijkstra {
             for ( VertexConnection vConnect : target.getConnections() ) {
                 int newDist = target.getDistance() + vConnect.getWeight();
                 Vertex toVertex = vConnect.getToVertex();
+
                 boolean shorterPathFound = newDist < toVertex.getDistance();
                 if ( shorterPathFound ) {
                     toVertex.setDistance(newDist);
