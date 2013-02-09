@@ -4,50 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/my/algorithm/prim/InvalidPrim.java" line="0" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b43a6fab-831d-4679-a8ce-8232dfed872f" name="Default" comment="Jetty上にManifoldCFとSolrを載せたバイナリを追加">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/algorithm/sort/HeapSorter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/my/algorithm/sort/HeapSorterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/my/algorithm/sort/speed/SortSpeedTest.java" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\algorithm.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\classes\my\algorithm\GraphBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\classes\my\algorithm\Vertex.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\classes\my\algorithm\VertexConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\classes\my\algorithm\bellmanford\BellmanFord.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\classes\my\algorithm\dijkstra\DenseGraphDijkstra.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\classes\my\algorithm\dijkstra\Dijkstra.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\classes\my\algorithm\dijkstra\PriorityQueueDijkstra$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\classes\my\algorithm\dijkstra\PriorityQueueDijkstra.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\classes\my\algorithm\floydwarshall\FloydWarshall.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\classes\my\algorithm\floydwarshall\FloydWarshallResult.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\classes\my\algorithm\prim\InvalidPrim$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\classes\my\algorithm\prim\InvalidPrim.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\classes\my\algorithm\prim\Prim$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\classes\my\algorithm\prim\Prim.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\maven-archiver\pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\surefire-reports\TEST-my.algorithm.bellmanford.BellmanFordTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\surefire-reports\TEST-my.algorithm.dijkstra.DenseGraphGraphTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\surefire-reports\TEST-my.algorithm.dijkstra.PriorityQueueGraphTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\surefire-reports\TEST-my.algorithm.floydwarshall.FloydWarshallTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\surefire-reports\TEST-my.algorithm.prim.PrimTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\surefire-reports\my.algorithm.bellmanford.BellmanFordTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\surefire-reports\my.algorithm.dijkstra.DenseGraphGraphTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\surefire-reports\my.algorithm.dijkstra.PriorityQueueGraphTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\surefire-reports\my.algorithm.floydwarshall.FloydWarshallTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\surefire-reports\my.algorithm.prim.PrimTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\test-classes\my\algorithm\AbstractGraphTest.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\test-classes\my\algorithm\bellmanford\BellmanFordTest.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\test-classes\my\algorithm\dijkstra\DenseGraphGraphTest.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\test-classes\my\algorithm\dijkstra\PriorityQueueGraphTest.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\test-classes\my\algorithm\floydwarshall\FloydWarshallTest.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\test-classes\my\algorithm\prim\InvalidPrimTest.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zyake\Documents\GitHub\algorithm\target\test-classes\my\algorithm\prim\PrimTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/my/algorithm/sort/InsertionSorterTest.java" afterPath="$PROJECT_DIR$/src/test/java/my/algorithm/sort/InsertionSorterTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/my/algorithm/sort/SimpleQuickSorterTest.java" afterPath="$PROJECT_DIR$/src/test/java/my/algorithm/sort/SimpleQuickSorterTest.java" />
+    <list default="true" id="b43a6fab-831d-4679-a8ce-8232dfed872f" name="Default" comment="" />
+    <list id="17021eea-58c0-46d3-ab49-20d2d27876ad" name="New changelist" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algorithm.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360383693469" ignored="false" />
+    <file path="/fragment.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360391713843" ignored="false" />
     <file path="/Dijkstra.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359190428869" ignored="false" />
     <file path="/PriorityQueueDijkstra.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359258414177" ignored="false" />
     <file path="/DenseGraphDijkstra.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359252288860" ignored="false" />
@@ -76,7 +39,7 @@
     <file path="/InsertionSorter.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359871182709" ignored="false" />
     <file path="/InsertionSorterTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359816646147" ignored="false" />
     <file path="/MedianSorter.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359819496839" ignored="false" />
-    <file path="/Dummy.txt" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360385728325" ignored="false" />
+    <file path="/Dummy.txt" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360395453430" ignored="false" />
     <file path="$PROJECT_DIR$/../ds_lite/server/build.xml" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359855315726" ignored="false" />
     <file path="$PROJECT_DIR$/../ds_lite/server/work/ds_lite/solr/collection1/conf/solrconfig.xml" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359853372722" ignored="false" />
     <file path="/build.xml" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359854882763" ignored="false" />
@@ -89,7 +52,17 @@
     <file path="/OptimizedQuickSorterTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1359871642049" ignored="false" />
     <file path="/HeapSorter.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360384048187" ignored="false" />
     <file path="/HeapSorterTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360384588699" ignored="false" />
-    <file path="/SortSpeedTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360385600986" ignored="false" />
+    <file path="/SortSpeedTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360393963203" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360395460872" ignored="false" />
+    <file path="/CountingSort.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360389585601" ignored="false" />
+    <file path="/CountingSorter.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360388306391" ignored="false" />
+    <file path="/CountingSorterTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360388657437" ignored="false" />
+    <file path="/IntegerArrayCountingSorter.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360392034530" ignored="false" />
+    <file path="/IntegerArrayCountingSorterTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360389935816" ignored="false" />
+    <file path="/DenseSpeedTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360391856323" ignored="false" />
+    <file path="/DenseSortSpeedTest.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360393090215" ignored="false" />
+    <file path="/TreeMapCountingSorter.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360392869716" ignored="false" />
+    <file path="/CollectionsSorterAdapter.java" changelist="b43a6fab-831d-4679-a8ce-8232dfed872f" time="1360391813562" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,57 +137,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FloydWarshallResult.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/floydwarshall/FloydWarshallResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="27" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FloydWarshall.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/floydwarshall/FloydWarshall.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BellmanFord.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/bellmanford/BellmanFord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="26" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="32" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeapSorter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/sort/HeapSorter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="46" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HeapSorterTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/HeapSorterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="27" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortSpeedTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/speed/SortSpeedTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -222,11 +157,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InsertionSorterTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/InsertionSorterTest.java">
+      <file leaf-file-name="DenseSortSpeedTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/speed/DenseSortSpeedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+            <state line="38" column="0" selection-start="1015" selection-end="1015" vertical-scroll-proportion="3.265625">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectionsSorterAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/CollectionsSorterAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="37" selection-start="95" selection-end="119" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeMapCountingSorter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/sort/TreeMapCountingSorter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="9" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntegerArrayCountingSorter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/sort/IntegerArrayCountingSorter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="11" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntegerArrayCountingSorterTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/IntegerArrayCountingSorterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="34" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -240,21 +219,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleQuickSorterTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/SimpleQuickSorterTest.java">
+      <file leaf-file-name="Prim.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/prim/Prim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="5" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="9" column="53" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortSpeedTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/speed/SortSpeedTest.java">
+      <file leaf-file-name="TreeMapCountingSorterTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/TreeMapCountingSorterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.34432235">
+            <state line="16" column="21" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -280,21 +257,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/sort/Sort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/sort/InsertionSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/sort/Sorter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/sort/MedianSorter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/sort/QuidkSorter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/my/algorithm/sort/QuickSorterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/sort/QuickSorter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/sort/SimpleQuickSorter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/sort/InsertionSorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/algorithm/sort/OptimizedQuickSorter.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/sort/OptimizedQuickSorterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/algorithm/sort/HeapSorter.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/sort/HeapSorterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/sort/InsertionSorterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/sort/SimpleQuickSorterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/sort/CountingSort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/my/algorithm/sort/CountingSorterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/sort/CountingSorter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/my/algorithm/sort/IntegerArrayCountingSorterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/my/algorithm/sort/speed/DenseSpeedTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/my/algorithm/sort/CollectionsSorterAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/sort/IntegerArrayCountingSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/algorithm/sort/TreeMapCountingSorter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/my/algorithm/sort/speed/DenseSortSpeedTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/my/algorithm/sort/speed/SortSpeedTest.java" />
       </list>
     </option>
@@ -533,36 +510,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bellmanford" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -634,73 +581,7 @@
       <recent name="C:\Users\zyake\Documents\GitHub\algorithm\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SortSpeedTest">
-    <configuration default="false" name="InsertionSorterTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="algorithm" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="my.algorithm.sort" />
-      <option name="MAIN_CLASS_NAME" value="my.algorithm.sort.InsertionSorterTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="HeapSorterTest.testSort" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="algorithm" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="my.algorithm.sort" />
-      <option name="MAIN_CLASS_NAME" value="my.algorithm.sort.HeapSorterTest" />
-      <option name="METHOD_NAME" value="testSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="HeapSorterTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="algorithm" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="my.algorithm.sort" />
-      <option name="MAIN_CLASS_NAME" value="my.algorithm.sort.HeapSorterTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.DenseSortSpeedTest">
     <configuration default="false" name="All in algorithm" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="algorithm" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -729,6 +610,72 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="my.algorithm.sort.speed" />
       <option name="MAIN_CLASS_NAME" value="my.algorithm.sort.speed.SortSpeedTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TreeMapCountingSorterTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="algorithm" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="my.algorithm.sort" />
+      <option name="MAIN_CLASS_NAME" value="my.algorithm.sort.TreeMapCountingSorterTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="IntegerArrayCountingSorterTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="algorithm" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="my.algorithm.sort" />
+      <option name="MAIN_CLASS_NAME" value="my.algorithm.sort.IntegerArrayCountingSorterTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DenseSortSpeedTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="algorithm" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="my.algorithm.sort.speed" />
+      <option name="MAIN_CLASS_NAME" value="my.algorithm.sort.speed.DenseSortSpeedTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -855,19 +802,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.InsertionSorterTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HeapSorterTest.testSort" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HeapSorterTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in algorithm" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SortSpeedTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in algorithm" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SortSpeedTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TreeMapCountingSorterTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.IntegerArrayCountingSorterTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DenseSortSpeedTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SortSpeedTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in algorithm" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HeapSorterTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HeapSorterTest.testSort" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.InsertionSorterTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DenseSortSpeedTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SortSpeedTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.IntegerArrayCountingSorterTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TreeMapCountingSorterTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in algorithm" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -910,6 +857,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b43a6fab-831d-4679-a8ce-8232dfed872f" name="Default" comment="" />
+      <changelist id="17021eea-58c0-46d3-ab49-20d2d27876ad" name="New changelist" comment="" />
       <created>1359190382167</created>
       <updated>1359190382167</updated>
     </task>
@@ -917,7 +865,15 @@
       <created>1359872990407</created>
       <updated>1359872990407</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ヒープソートを追加">
+      <created>1360385789714</created>
+      <updated>1360385789714</updated>
+    </task>
+    <task id="LOCAL-00003" summary="数え上げソートの例を追加">
+      <created>1360395457031</created>
+      <updated>1360395457032</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -937,10 +893,10 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20196672" sideWeight="0.67147434" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20196672" sideWeight="0.5352564" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2549168" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4679487" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2549168" sideWeight="0.5352564" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46474358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="1.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -986,7 +942,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="ソートを追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="数え上げソートの例を追加" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1004,6 +960,8 @@
     <MESSAGE value="サーバ用バイナリディレクトリを追加" />
     <MESSAGE value="Jetty上にManifoldCFとSolrを載せたバイナリを追加" />
     <MESSAGE value="ソートを追加" />
+    <MESSAGE value="ヒープソートを追加" />
+    <MESSAGE value="数え上げソートの例を追加" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1013,67 +971,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2869" column="0" selection-start="129741" selection-end="129741" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/dijkstra/PriorityQueueDijkstra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="9" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/sort/InsertionSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="49" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/sort/Sorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/prim/Prim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="18" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#201#368#0" expanded="false" />
-            <element signature="e#215#223#0" expanded="false" />
-            <element signature="e#361#362#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/prim/InvalidPrim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#388#617#0" expanded="false" />
-            <element signature="e#402#410#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/floydwarshall/FloydWarshallResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/floydwarshall/FloydWarshall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
@@ -1083,17 +980,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/sort/SimpleQuickSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="5" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/bellmanford/BellmanFord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="26" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,31 +1006,95 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/SimpleQuickSorterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="5" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/InsertionSorterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/HeapSorterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="27" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/IntegerArrayCountingSorterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="34" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/prim/Prim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="53" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/sort/SimpleQuickSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="5" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/CollectionsSorterAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="37" selection-start="95" selection-end="119" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/TreeMapCountingSorterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="21" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/sort/TreeMapCountingSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="9" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/algorithm/sort/IntegerArrayCountingSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="11" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/speed/SortSpeedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.34432235">
+        <state line="19" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/my/algorithm/sort/speed/DenseSortSpeedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1015" selection-end="1015" vertical-scroll-proportion="3.265625">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
