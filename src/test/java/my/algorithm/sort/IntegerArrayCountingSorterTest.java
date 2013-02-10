@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
+
 public class IntegerArrayCountingSorterTest {
 
     @Test
@@ -15,6 +18,6 @@ public class IntegerArrayCountingSorterTest {
 
         new IntegerArrayCountingSorter(3).sort(integers);
 
-        System.out.println(integers);
+        assertThat(integers.toString(), is("[0, 0, 0, 2, 2, 2, 3]"));
     }
 }
